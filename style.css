@@ -1083,3 +1083,20 @@ h5 {
   background-color: var(--bs-primary);
   color: var(--bs-light);
 }
+
+.logo{
+  height: 30px;
+}
+
+.navbar-brand{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand h4{
+  font-size: 38px;
+  margin: 0;
+  font-weight: 400;
+}
