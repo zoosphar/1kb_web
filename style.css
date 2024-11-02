@@ -27,15 +27,15 @@ CSS STRUCTURE:
   --accent-color: #0d0d0d;
   --bs-gray-100: #f3f3f3;
   --bs-gray-200: #e7e5e2;
-  --bs-primary: #787d62;
+  --bs-primary: #beb0a3;
   --bs-secondary: #F6F5F2;
-  --bs-primary-rgb: 120, 125, 98;
+  --bs-primary-rgb: 190, 176, 163;
   --bs-body-bg-rgb: 246, 245, 242;
   --bs-light: #fff;
-  --bs-dark: #000;
+  --bs-dark: #bd9672;
   --navbar-color-color: #131814;
-  --swiper-theme-color: #787d62 !important;
-  --swiper-pagination-color: #787d62 !important;
+  --swiper-theme-color: #beb0a3 !important;
+  --swiper-pagination-color: #beb0a3 !important;
 
 }
 
@@ -135,8 +135,8 @@ a:hover {
 }
 
 .padding-large {
-  padding-top: 7em;
-  padding-bottom: 7em;
+  padding-top: 4em;
+  padding-bottom: 1em;
 }
 
 /* - Section margin
@@ -961,6 +961,11 @@ h5 {
   display: none;
 }
 
+.testimonials-container {
+  background-color: rgba(190, 176, 163, 0.6);
+  padding: 40px 0px
+}
+
 @media only screen and (max-width: 901px) {
   #testimonials .swiper-pagination {
     display: block;
@@ -970,6 +975,10 @@ h5 {
   .review-content .swiper-arrow {
     display: none !important;
   }
+
+    .icon-box .icon-box-content {
+      width: 100%;
+    }
 }
 
 /* 6. collections
@@ -1099,4 +1108,5 @@ h5 {
   font-size: 38px;
   margin: 0;
   font-weight: 400;
+  color:rgba(0, 0, 0, 1);
 }
